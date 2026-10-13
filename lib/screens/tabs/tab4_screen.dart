@@ -20,7 +20,7 @@ class _Tab4ScreenState extends State<Tab4Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('WinApex • Alerts'),
+        title: const Text('Win • Alerts'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20.0),

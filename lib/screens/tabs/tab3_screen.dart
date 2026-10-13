@@ -14,7 +14,7 @@ class Tab3Screen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('WinApex • Signals'),
+        title: const Text('Win • Signals'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20.0),
