@@ -33,16 +33,16 @@ class Tab1Screen extends StatelessWidget {
               child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Глобальный крипторынок', style: TextStyle(color: Colors.white70, fontSize: 12)),
+                  Text('Global Crypto Market', style: TextStyle(color: Colors.white70, fontSize: 12)),
                   SizedBox(height: 6),
-                  Text('\$2.68T • +3.4% 24ч', style: TextStyle(color: AppTheme.primaryColor, fontSize: 24, fontWeight: FontWeight.bold)),
+                  Text('\$2.68T • +3.4% 24h', style: TextStyle(color: AppTheme.primaryColor, fontSize: 24, fontWeight: FontWeight.bold)),
                   SizedBox(height: 6),
-                  Text('BTC Доминация: 54.2% • Газ: 18 Gwei • Индекс страха: 72 (Жадность)', style: TextStyle(color: Colors.white60, fontSize: 12)),
+                  Text('BTC Dominance: 54.2% • Gas: 18 Gwei • Fear & Greed: 72 (Greed)', style: TextStyle(color: Colors.white60, fontSize: 12)),
                 ],
               ),
             ),
             const SizedBox(height: 20),
-            const Text('Топ активы рынка', style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
+            const Text('Top Market Assets', style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
             const SizedBox(height: 12),
             ...coins.map((c) => Container(
               margin: const EdgeInsets.only(bottom: 10),

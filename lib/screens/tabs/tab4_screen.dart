@@ -10,10 +10,10 @@ class Tab4Screen extends StatefulWidget {
 
 class _Tab4ScreenState extends State<Tab4Screen> {
   final List<Map<String, dynamic>> _alerts = [
-    {'title': 'BTC выше \$70,000', 'active': true},
-    {'title': 'ETH ниже \$3,300', 'active': true},
-    {'title': 'SOL выше \$165.00', 'active': false},
-    {'title': 'Движения китов > \$10M', 'active': true},
+    {'title': 'BTC above \$70,000', 'active': true},
+    {'title': 'ETH below \$3,300', 'active': true},
+    {'title': 'SOL above \$165.00', 'active': false},
+    {'title': 'Whale Transfers > \$10M', 'active': true},
   ];
 
   @override
@@ -34,7 +34,7 @@ class _Tab4ScreenState extends State<Tab4Screen> {
                 borderRadius: BorderRadius.circular(18),
                 border: Border.all(color: AppTheme.primaryColor.withValues(alpha: 0.3)),
               ),
-              child: const Text('Ценовые уведомления и алерты', style: TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 16)),
+              child: const Text('Price Alerts & Notifications', style: TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 16)),
             ),
             const SizedBox(height: 20),
             ..._alerts.map((a) => Container(

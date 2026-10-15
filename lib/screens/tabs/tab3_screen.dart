@@ -31,9 +31,9 @@ class Tab3Screen extends StatelessWidget {
               child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('ИИ Аналитика Сигналов', style: TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 16)),
+                  Text('AI Signal Analytics', style: TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 16)),
                   SizedBox(height: 4),
-                  Text('Алгоритмический анализ стакана и объема китов', style: TextStyle(color: Colors.white70, fontSize: 12)),
+                  Text('Algorithmic order book & whale volume analysis', style: TextStyle(color: Colors.white70, fontSize: 12)),
                 ],
               ),
             ),
@@ -60,8 +60,8 @@ class Tab3Screen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text('Вход: ${s["entry"]}', style: const TextStyle(color: Colors.white70, fontSize: 13)),
-                      Text('Цель: ${s["target"]}', style: const TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 13)),
+                      Text('Entry: ${s["entry"]}', style: const TextStyle(color: Colors.white70, fontSize: 13)),
+                      Text('Target: ${s["target"]}', style: const TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 13)),
                     ],
                   ),
                 ],
